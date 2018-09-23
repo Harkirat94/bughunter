@@ -1,0 +1,47 @@
+public class sample.DSample1 extends java.lang.Object
+{
+
+    public static int div(int, int)
+    {
+        int a, b, temp$0, temp$1;
+
+        a := @parameter0: int;
+        b := @parameter1: int;
+
+     label0:
+        nop;
+        if b != 0 goto label1;
+
+        goto label2;
+
+     label1:
+        nop;
+        temp$0 = b - 1;
+        b = temp$0;
+        goto label0;
+
+     label2:
+        nop;
+        temp$1 = 0;
+        return temp$1;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        int temp$0;
+
+        args := @parameter0: java.lang.String[];
+        temp$0 = staticinvoke <sample.DSample1: int div(int,int)>(2, 0);
+        return;
+    }
+
+    public void <init>()
+    {
+        sample.DSample1 this;
+
+        this := @this: sample.DSample1;
+        specialinvoke this.<java.lang.Object: void <init>()>();
+        return;
+    }
+}

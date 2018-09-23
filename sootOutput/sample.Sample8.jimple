@@ -1,0 +1,23 @@
+public class sample.Sample8 extends java.lang.Object
+{
+
+    public static int fn1(int, int)
+    {
+        int a, b, c, temp$0;
+
+        a := @parameter0: int;
+        b := @parameter1: int;
+        temp$0 = a / b;
+        c = temp$0;
+        return c;
+    }
+
+    public void <init>()
+    {
+        sample.Sample8 this;
+
+        this := @this: sample.Sample8;
+        specialinvoke this.<java.lang.Object: void <init>()>();
+        return;
+    }
+}
